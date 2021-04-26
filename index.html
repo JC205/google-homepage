@@ -53,19 +53,38 @@ a:hover{
 .material-icons-outlined {
     font-size: 30px; 
     }
+#login{
+    height: 30px;
+    width: 30px; 
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: 1px; 
+    cursor: pointer; 
+}
+#login hover{
+    text-decoration: none; 
+    background: grey; 
+}
+.main {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    position: relative; 
+    padding-top: 220px; 
+}
 .footer {
     width: 100%;
     height: 60px; 
     display: flex; 
     flex-direction: row;
 }
-.logo {   
+.main img{   
     min-height: 100px; 
     max-height: 290px;
-    display: flex; 
+    display: block; 
     width: auto;
-    margin-left: auto; 
-    margin-right: auto;  
+    margin: 0 auto; 
 }
     </style>
 <!-- Consider use of div class, header, body, footer etc. refer to Free Code Camp tutorials for some guidance, in particular grids. -->
@@ -82,16 +101,16 @@ a:hover{
         <a href="#Gmail"> Gmail</a></li>
         <a href="#Images"> Images</a></li>
         <a href="#GoogleApps" class="material-icons-outlined">grid_view</a></li>
-        <a href="#Account" class="material-icons-outlined">account_circle</a></li>
+        <a href="#Account" id="login" class="material-icons-outlined">account_circle</a></li>
     </div>
 </nav>
 </header>
 
-<body>
-    <div class="logo">
+<main>
+    <div class="img">
     <a href="https://www.google.com"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google.com logo"> </a>
     </div>
-</body>
+</main>
 
 <footer>
 </footer>
