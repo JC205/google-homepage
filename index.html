@@ -8,43 +8,34 @@
 body{
     font-family: arial, sans-serif; 
     font-size: 14px; 
-    display: flex; 
-    flex-direction: column;
     height: 100%; 
     width: 100%; 
 }
 header{
     width: 100%;
     display: flex;
+    flex-direction: row; 
     align-items: center; 
     padding: 6px; 
     height: 60px; 
-    box-sizing: border-box;
 }
-header .lh {
+header .title {
     display: flex;
     padding: 5px;
     margin:0 5px;
-    float: left; 
-    color:#222}
-}
-header .rh{
-    display: flex;
-    padding: 5px;
-    color: #222; 
-    margin-right: 15px; 
-    float: right; 
+    color:#222; 
+    align-self: center; 
 }
 .material-icons-outlined {
     font-size: 30px; 
     }
 .footer {
-}
-.title {
+    width: 100%;
+    height: 60px; 
+    display: flex; 
+    flex-direction: row;
 }
 div{
-    display: flex; 
-    width: 100%;
 }
 .logo {   
     min-height: 100px; 
@@ -53,20 +44,19 @@ div{
     width: auto;
     margin-left: auto; 
     margin-right: auto;  
-    position: relative; 
 }
 li {
     list-style-type: none; 
-    margin: 0; 
-    padding; 0; 
+    margin: auto;  
+    padding: 0; 
 }
 li a{
     display: flex; 
-    width: auto; 
+    width: 30px; 
     color: #222; 
     text-decoration: none; 
     text-align: center; 
-    padding: 5px; 
+    padding: 3px; 
 }
 li a:hover{
     text-decoration: underline; 
@@ -77,12 +67,12 @@ li a:hover{
 <header>
     <div>
   <!--  about store     gmail   images apps account -->
-        <li class="lh"><a href="#About"> About</a></li>
-        <li class="lh"><a href="#Store"> Store</a></li>
-        <li class="rh"><a href="#Gmail"> Gmail</a></li>
-        <li class="rh"><a href="#Images"> Images</a></li>
-        <li class="rh"><a href="#GoogleApps"> Google Apps</a></li>
-        <li class="rh material-icons-outlined"><a href="#Account">account_circle</a></li>
+        <li class="title"><a href="#About"> About</a></li>
+        <li class="title"><a href="#Store"> Store</a></li>
+        <li class="title"><a href="#Gmail"> Gmail</a></li>
+        <li class="title"><a href="#Images"> Images</a></li>
+        <li class="title material-icons-outlined"><a href="#GoogleApps">grid_view</a></li>
+        <li class="title material-icons-outlined"><a href="#Account">account_circle</a></li>
 </div>
 </header>
 
