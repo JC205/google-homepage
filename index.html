@@ -19,7 +19,6 @@ header{
     align-items: center; 
     padding: 6px; 
     height: 60px; 
-    flex-shrink: 0;
     box-sizing: border-box;
 }
 header .lh {
@@ -34,12 +33,11 @@ header .rh{
     padding: 5px;
     color: #222; 
     margin-right: 15px; 
+    float: right; 
 }
 .material-icons-outlined {
-    font-size: 25px; 
-    .material-icons.md-dark.md-inactive { 
-        color: #222; 
-    }}
+    font-size: 30px; 
+    }
 .footer {
 }
 .title {
@@ -51,7 +49,7 @@ div{
 .logo {   
     min-height: 100px; 
     max-height: 290px;
-    display: block; 
+    display: flex; 
     width: auto;
     margin-left: auto; 
     margin-right: auto;  
@@ -63,16 +61,16 @@ li {
     padding; 0; 
 }
 li a{
-    display: block; 
+    display: flex; 
     width: auto; 
-    color: black; 
+    color: #222; 
     text-decoration: none; 
     text-align: center; 
     padding: 5px; 
 }
 li a:hover{
     text-decoration: underline; 
-    color: black; 
+    color: #222; 
 }
     </style>
 <!-- Consider use of div class, header, body, footer etc. refer to Free Code Camp tutorials for some guidance, in particular grids. -->
@@ -90,7 +88,7 @@ li a:hover{
 
 <body>
     <div class="logo">
-    <a href="https://www.google.com"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google.com logo" class="logo"> </a>
+    <a href="https://www.google.com"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google.com logo"> </a>
     </div>
 </body>
 
