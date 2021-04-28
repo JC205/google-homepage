@@ -86,10 +86,7 @@ svg g{
     text-decoration: none; 
     box-shadow: 0px 0px 0px 43x rgb(240, 240, 240); 
     border-radius: 50%;
-<<<<<<< HEAD
     background-color:rgb(240,240,240); 
-=======
->>>>>>> 736055a2ee81f29f967dc90cb1942704d69cb484
 }
 main {
     display: flex; 
