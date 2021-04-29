@@ -77,8 +77,6 @@ svg g{
     fill:rgb(120, 144, 156);
     stroke-width: .5;
     scale: 1; 
-    width: 21px; 
-    height: 21px; 
 }
 .app-menu {
     width: auto;  
