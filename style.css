@@ -93,16 +93,16 @@ main {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    justify-content: center;
-    position: relative; 
-    height: 42vw;  
+    justify-content: center; 
+    height: 80%;  
+    margin: auto; 
+    vertical-align: middle; 
+    padding-top: 30vh;
 }
 .logo {   
     display: flex; 
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; 
-    object-position: center; 
     width: auto; 
     justify-content: center; 
 }
